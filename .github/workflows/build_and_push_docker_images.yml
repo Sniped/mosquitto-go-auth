@@ -5,6 +5,7 @@ on:
     branches: [master]
   release:
     types: [published]
+  workflow_dispatch:
 env:
   MOSQUITTO_VERSION_1: 1.6.15
   MOSQUITTO_VERSION_2: 2.0.21
